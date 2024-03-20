@@ -24,6 +24,10 @@ body {
   margin: auto;
 }
 
+.title img:hover {
+  cursor: pointer;
+}
+
 /* Questions section styling */
 .questions {
   display: none;
@@ -73,14 +77,15 @@ button:hover {
 /* question 1 styling  */
 
 .question1 {
-  display: none;
+ margin-bottom: 100px;
 }
 
 .buttons1,
 .buttons2 {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 
 }
 
@@ -102,9 +107,9 @@ button:hover {
 
 /* question 2 styling  */
 
-.question2 {
+/* .question2 {
   display: none;
-}
+} */
 
 .choice3 {
   background-color: #b8dfd1;
